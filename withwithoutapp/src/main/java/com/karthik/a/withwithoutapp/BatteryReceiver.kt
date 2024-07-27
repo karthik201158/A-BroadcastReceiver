@@ -12,7 +12,7 @@ class BatteryReceiver : BroadcastReceiver() {
 
     override fun onReceive(context: Context, intent: Intent) {
         val level = intent.getIntExtra(BatteryManager.EXTRA_LEVEL, -1)
-        if (level == 61) {
+        if (level == 86) {
             showNotification(context)
         }
     }

@@ -23,3 +23,4 @@ rootProject.name = "A-BroadcastReceiver"
 include(":app")
 include(":withwithoutapp")
 include(":withapp")
+include(":localbroadcast")
